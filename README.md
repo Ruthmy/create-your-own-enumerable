@@ -8,24 +8,25 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [Create your own Enumerable ](#create-your-own-enumerable-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 ---
 
@@ -42,12 +43,11 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Ruby</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby Official Website</a></li>
   </ul>
 </details>
-
 
 ---
 
@@ -92,8 +92,9 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 <ul>
-    <li><p>A modern browser (supports html5)</p></li>
+    <li><p>A code editor (we recommend Visual Studio Code)</p></li>
 </ul>
+
 <ul>
     <li><p>Git and a GitHub account</p></li>
 </ul>
@@ -108,16 +109,44 @@ git clone https://github.com/Ruthmy/create-your-own-enumerable.git
 
 ### Install
 
-Install this project with:
+Go to the project directory:
 
 ```
- gem install
+ cd create-your-own-enumerable
 ```
+
+Before to run the program, verify that you have Ruby installed on your OS running the following command:
+
+```
+ ruby -v
+```
+
+It should show you the version of ruby ​​installed. If this does not happen and only an error message is displayed, then you should either verify your installation or install Ruby from scratch.
+
+[Download and Install Ruby](https://www.ruby-lang.org/en/downloads/)
 
 ### Usage
 
+Run the following command inside the project folder:
+
 ```
- ruby create-your-own-enumerable.rb
+ ruby my_list.rb
+```
+
+This will display the following output:
+
+```
+true
+false
+true
+false
+[2, 4]
+```
+
+This is just a test code. If you want to test other lists, you must open the `my_list.rb` file using the code editor of your choice and change the argument in the `MyList.new()` object creation:
+
+```
+list = MyList.new(add-here-your-own-elements)
 ```
 
 ### Run tests
